@@ -1,6 +1,7 @@
 import './general.css'
 import React from 'react';
 import photo from './assets/Paolo.jpg'
+import resume from './assets/Resume.pdf'
 export default function About() {
 return (
 <>
@@ -30,7 +31,7 @@ return (
     <hr />
     <p><center>Thank you for visiting my portfolio!</center></p>
     <p> Resume  PDF Section</p>
-    <p>Alternative text - include a link <a href="./assets/Resume.pdf" target='_blank' rel='noopener noreferrer'>to the PDF!</a></p>
+    <p>Alternative text - include a link <a href={resume} target='_blank' rel='noopener noreferrer'>to the PDF!</a></p>
     
 
     
