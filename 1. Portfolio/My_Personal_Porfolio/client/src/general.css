@@ -1,0 +1,61 @@
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    /* background-color: #3e3c3c; */
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    color: #fffafa;
+}
+
+.main-content {
+    text-align: left;
+    margin-top: 180px;
+    margin-bottom: 20px;
+    width: 80%;
+    /* background-color: #4f4a4a; */
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 8px;
+    max-height: none;
+}
+
+.education-body{
+
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+
+.about-body {
+    padding: 20px;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+
+
+.header {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2.5em;
+    color: #6a1901;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    font-family: 'Arial Black', sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+.about-image {
+    display: block;
+    margin: 0 auto 20px auto;
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+

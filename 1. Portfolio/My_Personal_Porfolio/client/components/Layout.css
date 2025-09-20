@@ -1,0 +1,35 @@
+.home {
+    color: blue;
+}
+
+.about {
+    color: green;
+}
+
+.education {
+    color: red;
+}
+
+.project {
+    color: purple;
+}
+
+.contact {
+    color: orange;
+}
+
+.wrapper {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 70%;
+    background-color: #4f4a4a;
+    padding: 10px 0;
+    -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+}
