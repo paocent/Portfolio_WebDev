@@ -1,12 +1,14 @@
 import React from 'react';
 import { Outlet, Link } from 'react-router-dom';
 import './Layout.css';
-
+{/* Importing a logo image from src/asset/LOGO.png */}
+import logo from '../src/assets/LOGO.png';
 export default function Layout() {
   return (
     <>
       <div className="wrapper">
         <header>
+          <img src={logo} alt="Logo" className="logo" />
           <h1>My Portfolio</h1>
           <nav>
             {/* Navigation Links with class for CSS */}
