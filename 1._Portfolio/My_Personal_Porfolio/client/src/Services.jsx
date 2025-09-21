@@ -1,7 +1,7 @@
 import React from 'react';
 import './general.css';
 import webdev from './assets/WebDev.jpg';
-import uiux from './assets/ui.jpg';
+import uiux from './assets/UI.jpg';
 import seo from './assets/SEO-image1.jpg';
 import cc from './assets/cc.png';
 export default function Services() {
