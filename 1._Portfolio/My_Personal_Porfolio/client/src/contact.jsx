@@ -1,16 +1,24 @@
 import React from 'react';
 import './contact.css';
+
 export default function Contact() {
     
 return (
 <>
+<p className="header">My Contact Information: </p>
+<p>Email: adamepaolojp@domain.com</p>
+<p>Phone: (437) XXX-7890</p>
 
-<p>Contact</p>
-{
-  
-    <form className="contact-form">
-  <label htmlFor="name">Name:</label>
-  <input type="text" id="name" name="name" required />
+<hr />
+
+  {/* When submitted will redirect them back to the Home Page */}
+    <form className="contact-form" action="/" method="GET">
+      <p>Leave a message:</p>
+  <label htmlFor="first-name">First Name:</label>
+  <input type="text" id="first-name" name="first-name" required />
+
+  <label htmlFor="last-name">Last Name:</label>
+  <input type="text" id="last-name" name="last-name" required />
 
   <label htmlFor="email">Email:</label>
   <input type="email" id="email" name="email" required />
@@ -23,7 +31,7 @@ return (
   <button type="reset">Reset</button>
 
 </form>
-}
+
 
 </>
 );

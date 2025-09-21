@@ -11,10 +11,10 @@ export default function Layout() {
           <nav>
             {/* Navigation Links with class for CSS */}
             <Link to="/" className="home">Home</Link> |
-            <Link to="/about" className="about">About</Link> |
+            <Link to="/about" className="about">About Me</Link> |
             <Link to="/education" className="education">Education</Link> |
             <Link to="/project" className="project">Project</Link> |
-            <Link to="/contact" className="contact">Contact</Link>
+            <Link to="/contact" className="contact">Contact Me</Link>
             | <Link to="/services" className="services">Services</Link>
           </nav>
         </header>

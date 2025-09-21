@@ -1,7 +1,10 @@
-/*
- * This CSS provides a professional, cohesive theme for a modern website,
- * including a dark color scheme, subtle transitions, and refined element styles.
- */
+/*  
+index.css
+Paolo Andrei Adame
+September 20 2025
+*/
+
+
 
 :root {
   font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -9,7 +12,7 @@
   font-weight: 400;
   color-scheme: dark;
   color: rgba(255, 255, 255, 0.9);
-  /* A dark, charcoal background for a soft, professional look */
+ 
   background-color: #1a1a1a;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -54,7 +57,7 @@ button {
   font-size: 1.1rem;
   font-weight: 500;
   font-family: inherit;
-  /* Subtle gradient for depth and visual appeal */
+ 
   background: linear-gradient(145deg, #333333, #111111);
   color: #e0e0e0;
   cursor: pointer;

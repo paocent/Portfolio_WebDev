@@ -1,3 +1,9 @@
+/*  
+general.css
+Paolo Andrei Adame
+September 20 2025
+*/
+
 .container {
     margin: 0 auto;
     padding: 20px;
@@ -106,10 +112,10 @@
     margin-bottom: 20px;
 }
 
-.services-container {
-    display: flex;
-    flex-direction: column;
-    gap: 15px; /* Adds space between cards */
+.services-container { /* 3 column layout */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 50px;
 }
 
 .service-card {
@@ -138,3 +144,9 @@
     transform: translateY(-5px);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }   
+
+.service-image {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+}
