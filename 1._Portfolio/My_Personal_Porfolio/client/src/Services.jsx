@@ -1,6 +1,6 @@
 import React from 'react';
 import './general.css';
-import webdev from './assets/webdev.jpg';
+import webdev from './assets/WebDev.jpg';
 import uiux from './assets/ui.jpg';
 import seo from './assets/SEO-image1.jpg';
 import cc from './assets/cc.png';
