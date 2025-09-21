@@ -31,7 +31,7 @@ export default function Layout() {
         <hr />
 
         <footer>
-          <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+          <p>&copy; 2025 My Portfolio. All rights reserved.</p>
         </footer>
       </div>
     </>
