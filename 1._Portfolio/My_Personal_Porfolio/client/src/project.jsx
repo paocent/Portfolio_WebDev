@@ -39,7 +39,7 @@ return (
         <p><b>Current Status:</b> Deployed and used in production.</p>
         <p><b>Programs used:</b> CSS, HTML, JavaScript</p>
         <p><b>Project Link:</b> <a href="https://goldcorner.github.io/" target="_blank" rel="noopener noreferrer">View Project</a></p>
-        <p><a href={BookHive} target="_blank" rel="noopener noreferrer">Expand Image</a></p>
+        <p><a href={GoldCorner} target="_blank" rel="noopener noreferrer">Expand Image</a></p>
     </div>
 </div>
 
